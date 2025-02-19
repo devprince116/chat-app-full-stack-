@@ -1,4 +1,4 @@
-# Chat App Backend
+# Chat App Full-Stack
 
 ## Overview
 This is the backend for a **group chat application** built with **TypeScript, Express, PostgreSQL, and TypeORM**. It supports **authentication, group-based messaging, and role-based access control**.
@@ -96,12 +96,23 @@ To access the API documentation:
 
 ---
 
+# Frontend
 
-### Build & Start in Production
-```sh
-npm run build
-npm start
-```
+## Clone the frontend repository:
+
+`cd frontencd`
+
+## Install dependencies:
+
+`npm install`
+
+### Create a .env file and set the backend API URL:
+
+`VITE_API_URL=http://localhost:4000/api/v1`
+
+## Start the development server:
+
+`npm run dev`
 
 ---
 
