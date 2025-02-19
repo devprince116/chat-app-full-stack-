@@ -39,7 +39,7 @@ Ensure you have the following installed:
 1. **Clone the repository**
    ```sh
    git clone https://github.com/devprince116/chat-app-backend.git
-   cd chat-app-backend
+   cd backend
    ```
 
 2. **Install dependencies**
