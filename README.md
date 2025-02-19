@@ -58,13 +58,12 @@ Ensure you have the following installed:
    JWT_SECRET=your_secret_key
    ```
 
-
-5. **Start the server**
+4. **Start the server**
    ```sh
    npm start
    ```
 
-6. **API is now running on** `http://localhost:4000`
+5. **API is now running on** `http://localhost:4000`
 
 ---
 
@@ -98,21 +97,25 @@ To access the API documentation:
 
 # Frontend
 
-## Clone the frontend repository:
+## Clone the Frontend Repository
+```sh
+cd frontend
+```
 
-`cd frontencd`
+## Install Dependencies
+```sh
+npm install
+```
 
-## Install dependencies:
+### Create a .env File and Set the Backend API URL
+```env
+VITE_API_URL=http://localhost:4000/api/v1
+```
 
-`npm install`
-
-### Create a .env file and set the backend API URL:
-
-`VITE_API_URL=http://localhost:4000/api/v1`
-
-## Start the development server:
-
-`npm run dev`
+## Start the Development Server
+```sh
+npm run dev
+```
 
 ---
 
